@@ -1,0 +1,23 @@
+● Git
+    ○  Undo actions: 
+        1. Thay đổi commit message: git commit --amend -m”message”
+        2. Đưa từ vùng staging về working directory: git restore --staged <file>
+        3. Đưa từ vùng repository về working directory (uncommit): git reset HEAD~1 (undo 1 commit)
+    ○ Branching model
+        1. Thay đổi commit message: git commit --amend -m”message”
+        2. Đưa từ vùng staging về working directory: git restore --staged <file>
+        3. Đưa từ vùng repository về staging: 
+        4. Branching model: git checkout -b <ten_branch>
+    ○ GitIgnore
+        ● Thay đổi commit message:  git commit --amend -m”message”
+        ● Đưa từ vùng staging về working directory: git restore --staged <file>
+        ● Đưa từ vùng repository về staging .gitignore file: 
+● Javascript basic
+    ○ Conventions 
+    ○ Logical operator
+        1. snake_case: chưa dùng
+        2. kebab-case: tên file
+        3. camelCase: tên biến
+        4. PascalCase: tên class
+    ○ Object and array
+    ○ Function
