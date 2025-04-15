@@ -67,7 +67,7 @@ let school = {
 console.log(school);
 console.log(school["class_A"][0]);
 console.log(school["class_B"][2]);
-for (i = 0; i < school["class_A"].length; i++) {
+for (let i = 0; i < school["class_A"].length; i++) {
     console.log(school["class_A"][i]);
     console.log(school["class_B"][i]);
 }

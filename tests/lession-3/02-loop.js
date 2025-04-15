@@ -44,7 +44,7 @@ let doanhThu = [{ "month": 1, "total": 100 }, { "month": 2, "total": 101 }, { "m
 { "month": 11, "total": 110 }, { "month": 12, "total": 112 },];
 
 //console.log(doanhThu.length);
-for (i = 0; i < doanhThu.length; i++) {
+for (let i = 0; i < doanhThu.length; i++) {
     tongDoanhThu += doanhThu[i].total;
     console.log(doanhThu[i].total);
 }

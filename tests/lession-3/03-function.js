@@ -25,9 +25,7 @@ findMin(9, 2, 31);
 function findMin1(a, b, c) {
     let min;
     let arr = [];
-    arr.push(a);
-    arr.push(b);
-    arr.push(c);
+    arr.push(a,b,c);
     min = arr[0];
     for (i = 0; i < arr.length; i++) {
         if (min > arr[i]) {
